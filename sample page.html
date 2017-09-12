@@ -2,8 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-
     <meta type="viewport" content="width=device-width">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -22,21 +20,9 @@
             color: white;
         }
 
-        .backg2 {
-            color: black;
-        }
-
-        #border1 {
-            border-bottom: 30px;
-            border-bottom: 2px solid darkblue;
-            width: 50px;
-            float: center;
-
-        }
-
         .colrow {
-            padding-bottom: 60px;
-            padding-top: 40px;
+            padding-bottom: 20px;
+            padding-top: 10px;
 
         }
 
@@ -52,27 +38,30 @@
         .jumbotron {
             margin-top: 0px;
         }
-        .nav >li >a:hover{
 
-            background-color:indigo;
+        .nav > li > a:hover {
+
+            background-color: indigo;
             color: white;
-            text-decoration:underline;
+            text-decoration: underline;
         }
-        .nav>li >a:active{
 
-            background-color:orange;
+        .nav > li > a:active {
+
+            background-color: orange;
             color: white;
             text-decoration: none;
         }
+
 
     </style>
 </head>
 
 <body>
-<nav class="navbar navbar-pills">
-    <div class="container">
+<nav class="navbar navbar-pills" style="margin-bottom: 0px;">
+    <div class="container-fluid">
         <div class="navbar-header">
-            <a href="#" class="navbar-brand">PORTFOLIO</a>
+            <a href="#" class="navbar-brand"> <strong>PORTFOLIO</strong></a>
         </div>
         <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="#">HOME</a></li>
@@ -113,19 +102,20 @@
 </div>
 
 
-<div class="container-fluid backg2 " id="id1">
+<div class="container-fluid " id="id1">
     <div class="text-center colrow">
         <h3>Our Service</h3>
         <p style="font-size: 13px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
             incididunt <br>ut labore et dolore
             magna aliqua.</p>
+        <hr style="background:darkorange; height:3px;width: 100px;" />
     </div>
 
     <div class="row colrow">
 
         <div class="col-md-4">
             <div class="media">
-                <div class="media-left media-middle">
+                <div class=" media-object media-left media-middle">
                     <span class="glyphicon glyphicon-picture" style="font-size: 50px;"></span>
                 </div>
                 <div class=" media-body">
@@ -139,8 +129,8 @@
 
         <div class="col-md-4">
             <div class="media">
-                <div class="media-left media-middle">
-                    <span class="glyphicon glyphicon-magnet" style="font-size: 50px;"></span>
+                <div class=" media-object media-left media-middle">
+                    <span class="glyphicon glyphicon-tasks" style="font-size: 50px;"></span>
                 </div>
                 <div class="media-body">
                     <h3 class="media-heading">Development</h3>
@@ -153,7 +143,7 @@
 
         <div class="col-md-4">
             <div class="media">
-                <div class="media-left media-middle">
+                <div class=" media-object media-left media-middle">
                     <span class="glyphicon glyphicon-magnet" style="font-size: 50px;"></span>
                 </div>
                 <div class="media-body">
